@@ -1,0 +1,40 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options:
+  # numbered: False
+parts:
+  - caption: Parte 1
+    chapters:
+      - file: 1_0_introduccion.ipynb
+
+  - caption: Parte 2
+    chapters:
+      - file: 2_0_variables_tiposdatos.ipynb
+        sections:
+          - file: 2_1_variables_ejercicios.ipynb
+      - file: 3_0_matematicas.ipynb
+        sections:
+          - file: 3_1_matematicas_ejercicios.ipynb
+
+  - caption: Parte 3
+    chapters:
+      - file: 4_0_comentarios.ipynb
+        sections:
+          - file: 4_1_comentarios_ejercicios.ipynb
+      - file: 5_0_print.ipynb
+        sections:
+          - file: 5_1_print_ejercicios.ipynb
+      - file: 6_0_input.ipynb
+        sections:
+          - file: 6_1_input_ejercicios.ipynb
+      - file: 7_0_funciones.ipynb
+        sections:
+          - file: 7_1_funciones_ejercicios.ipynb
+
+  - caption: Parte 4
+    chapters:
+      - file: 8_0_estructurascontrol.ipynb
+      - file: 8_1_if.ipynb
